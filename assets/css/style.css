@@ -1,0 +1,76 @@
+@import url(./variables.css);
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-p);
+    color: var(--clr-nt-3);
+    background-color: var(--clr-pr-1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    width: auto;
+    padding: 2rem 1rem;
+}
+
+main {
+    display: grid;
+    gap: 2rem;
+}
+
+h1 {
+    font-size: clamp(1.5rem, 5vw, 2rem);
+    color: var(--clr-nt-3);
+    text-align: center;
+}
+
+h2 {
+    font-size: clamp(1.2rem, 4vw, 1.5rem);
+    color: var(--clr-nt-3);
+}
+
+h3 {
+    font-size: clamp(1rem, 3vw, 1.2rem);
+    color: var(--clr-nt-3);
+}
+
+article {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1rem;
+    background-color: var(--clr-nt-1);
+    padding: 2rem;
+    border-radius: var(--br);
+    /* justify-items: center; */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    display: block;
+    white-space: nowrap;
+    overflow-x: auto;
+    font-size: clamp(0.8rem, 2vw, 1rem);
+}
+
+
+table th {
+    text-align: left;
+}
+
+table tr {
+    background-color: var(--clr-pr-1);
+}
+
+table td,
+table th {
+    padding: 0.2rem 0.7rem;
+
+}
+

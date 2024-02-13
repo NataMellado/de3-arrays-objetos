@@ -1,0 +1,26 @@
+:root {
+    /* Primary */
+    --clr-pr-1: hsl(225, 100%, 94%);
+    --clr-pr-2: hsl(245, 75%, 52%);
+
+    /* Neutral */
+    --clr-nt-1: hsl(225, 100%, 98%);
+    --clr-nt-2: hsl(224, 23%, 55%);
+    --clr-nt-3: hsl(223, 47%, 23%);
+
+    /* Font */
+    --ff-primary: 'Montserrat', sans-serif;
+
+    /* Font size */
+    --fs-title: 2rem;
+    --fs-subtitle: 1.5rem;
+    --fs-p: 1rem;
+
+    /* Font weight */
+    --fw-400: 400;
+    --fw-600: 600;
+
+    /* Border radius */
+    --br: 1rem;
+}
+
