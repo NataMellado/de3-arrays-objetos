@@ -1,5 +1,7 @@
 # Desafío - Uso de métodos con arrays y objetos
 
+![](./assets/images/desktop.jpeg)
+
 En este desafío validaremos nuestros conocimientos sobre Arrays y Objetos. Para lograrlo, necesitarás aplicar métodos transformadores para añadir, eliminar, modificar y acceder a elementos en arrays y Objetos.
 
 ## Descripción
